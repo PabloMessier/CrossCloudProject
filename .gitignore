@@ -1,0 +1,23 @@
+# Ignore Terraform files
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+*.tfvars
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+.terraformrc
+terraform.rc
+.terraform.lock.hcl
+
+# Ignore all .exe files
+*.exe
+
+# Ignore VS Code settings
+.vscode/
+
+# Ignore config files
+AWS_CRED.json
+vernal-tempo-415903-9f97f69b9aa6.json
